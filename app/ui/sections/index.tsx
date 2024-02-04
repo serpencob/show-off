@@ -1,10 +1,10 @@
-import About from "./about";
-import Experience from "./experience";
-import Projects from "./projects";
-import Footer from "./footer";
-import Section from "../section";
-import ExternalLink from "../external-link";
-import { NavRoutes } from "../utils/types";
+import ExternalLink from "@/app/ui/links/external-link";
+import Section from "@/app/ui/section";
+import About from "@/app/ui/sections/about";
+import Experience from "@/app/ui/sections/experience";
+import Footer from "@/app/ui/sections/footer";
+import Projects from "@/app/ui/sections/projects";
+import { NavRoutes } from "@/app/ui/utils/types";
 
 export default function Portfolio() {
   return (

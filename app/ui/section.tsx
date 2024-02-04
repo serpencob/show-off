@@ -1,10 +1,10 @@
 "use client";
 
+import { useFocusContext } from "@/app/ui/utils/focusContext";
+import { getIntersectionOptions } from "@/app/ui/utils/functions";
+import { NavRoutes } from "@/app/ui/utils/types";
 import { HTMLAttributes, PropsWithChildren, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { useFocusContext } from "./utils/focusContext";
-import { NavRoutes } from "./utils/types";
-import { getIntersectionOptions } from "./utils/functions";
 
 interface SectionProps extends HTMLAttributes<HTMLDivElement> {
   id: NavRoutes;

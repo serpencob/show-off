@@ -1,7 +1,7 @@
 import Link from "next/link";
-import LinkIcon from "./icons/link";
 import clsx from "clsx";
-import { LinkProps } from "./utils/types";
+import { LinkProps } from "@/app/ui/utils/types";
+import LinkIcon from "@/app/ui/icons/link";
 
 export default function ExternalLink({
   children,

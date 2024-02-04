@@ -1,9 +1,7 @@
+import Label from "@/app/ui/label";
+import ExternalLink from "@/app/ui/links/external-link";
+import { Tags } from "@/app/ui/utils/types";
 import { PropsWithChildren } from "react";
-import { Tags } from "./utils/types";
-import Label from "./label";
-import Image from "next/image";
-import LinkIcon from "./icons/link";
-import ExternalLink from "./external-link";
 
 export interface ContentCardProps {
   header: JSX.Element | string;

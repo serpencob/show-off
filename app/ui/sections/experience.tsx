@@ -1,4 +1,4 @@
-import ContentCard from "../content-card";
+import ContentCard from "@/app/ui/content-card";
 
 export default function Experience() {
   return (

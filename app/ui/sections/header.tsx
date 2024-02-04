@@ -1,6 +1,6 @@
-import GithubIcon from "../icons/github";
-import LinkedInIcon from "../icons/linkedin";
-import Navigation from "../navigation";
+import GithubIcon from "@/app/ui/icons/github";
+import LinkedInIcon from "@/app/ui/icons/linkedin";
+import Navigation from "@/app/ui/navigation";
 
 export default function Header() {
   return (

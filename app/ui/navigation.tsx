@@ -1,10 +1,9 @@
 "use client";
 
-import NavLink from "./nav-link";
-import { NavRoutes } from "./utils/types";
-import { useFocusContext } from "./utils/focusContext";
-import { getNavLinkProps } from "./utils/functions";
-import { useIntersection } from "./utils/useIntersection";
+import NavLink from "@/app/ui/links/nav-link";
+import { useFocusContext } from "@/app/ui/utils/focusContext";
+import { getNavLinkProps } from "@/app/ui/utils/functions";
+import { NavRoutes } from "@/app/ui/utils/types";
 
 export default function Navigation() {
   const { currentId } = useFocusContext();

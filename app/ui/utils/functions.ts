@@ -1,5 +1,5 @@
+import { NavRoutes } from "@/app/ui/utils/types";
 import { IntersectionOptions } from "react-intersection-observer";
-import { NavRoutes } from "./types";
 
 export const getNavLinkProps = (id: NavRoutes, currentId?: NavRoutes) => {
   return {

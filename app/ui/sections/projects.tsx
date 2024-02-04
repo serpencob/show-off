@@ -1,5 +1,5 @@
-import ContentCard from "../content-card";
-import ProjectImage from "../project-image";
+import ContentCard from "@/app/ui/content-card";
+import ProjectImage from "@/app/ui/project-image";
 
 export default function Projects() {
   return (

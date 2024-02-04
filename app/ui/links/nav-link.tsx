@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { PropsWithChildren } from "react";
-import { LinkProps } from "./utils/types";
+import { LinkProps } from "@/app/ui/utils/types";
 
 interface NavLinkProps extends LinkProps {
   active: boolean;

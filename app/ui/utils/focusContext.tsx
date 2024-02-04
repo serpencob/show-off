@@ -1,11 +1,5 @@
-import {
-  PropsWithChildren,
-  RefObject,
-  createContext,
-  useContext,
-  useState,
-} from "react";
-import { NavRoutes } from "./types";
+import { NavRoutes } from "@/app/ui/utils/types";
+import { PropsWithChildren, createContext, useContext, useState } from "react";
 
 interface FocusContextProps {
   currentId?: NavRoutes;

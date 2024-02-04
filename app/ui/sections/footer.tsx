@@ -1,5 +1,4 @@
-import Link from "next/link";
-import InlineLink from "../inline-link";
+import InlineLink from "@/app/ui/links/inline-link";
 
 export default function Footer() {
   return (
